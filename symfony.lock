@@ -96,8 +96,15 @@
     "symfony/routing": {
         "version": "7.2",
         "recipe": {
-            "version": "7.0"
-        }
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "7.0",
+            "ref": "21b72649d5622d8f7da329ffb5afb232a023619d"
+        },
+        "files": [
+            "config/packages/routing.yaml",
+            "config/routes.yaml"
+        ]
     },
     "symfony/security-bundle": {
         "version": "7.2",
